@@ -26,7 +26,7 @@ class App extends React.Component {
 
   render () {
 
-    console.log(this.state.playersData);
+    // console.log(this.state.playersData);
 
     return (
       <div classname="App">
