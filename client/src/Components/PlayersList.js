@@ -1,11 +1,24 @@
 import React from "react";
+import PlayerCard from './PlayerCard';
 
-const PlayersList = ( => {
+const PlayersList = ({ players }) => {
 
-    retuyrn (
+    if(players.length) {
 
-        <div> PlayerList </div>
+    return (
+
+        <div> 
+
+{players.map(player => {
+                return <PlayerCard player={player} key={player.id} />
+                })}
+             </div>
+    );
+} else {
+    return(
+        <div>Getting Players...</div>
     )
-})
+}
+}
 
 export default PlayerList;
