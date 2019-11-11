@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Playercard ( { player } ) => {
+const Playercard = ( {player} ) => {
 
 
     return (
@@ -13,4 +13,4 @@ const Playercard ( { player } ) => {
     );
 }
 
-export default PlayerCard;
+export default Playercard;

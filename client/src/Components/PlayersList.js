@@ -1,7 +1,7 @@
 import React from "react";
 import PlayerCard from './PlayerCard';
 
-const PlayersList = ({ players }) => {
+const PlayerList = ({ players }) => {
 
     if(players.length) {
 

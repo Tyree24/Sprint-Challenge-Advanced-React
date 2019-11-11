@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import axios fro "axios";
+import axios from "axios";
 import PlayerList from './Components/PlayersList.js'
+
 
 class App extends React.Component {
 
@@ -36,3 +37,5 @@ class App extends React.Component {
     )
   }
 }
+
+export default App;
