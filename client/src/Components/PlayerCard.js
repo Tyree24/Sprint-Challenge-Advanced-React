@@ -1,11 +1,15 @@
 import React from "react";
 
 
-const Playercard () => {
+const Playercard ( { player } ) => {
 
 
     return (
-        <div> PlayerCard </div>
+        <>
+        <div> Name:{player.name}</div>
+        <div>Country:{player.country}</div>
+        <div>Searches:{player.searches}</div>
+        </>
     );
 }
 
