@@ -29,8 +29,9 @@ class App extends React.Component {
     // console.log(this.state.playersData);
 
     return (
-      <div classname="App">
-
+      <div className="App">
+        <h2 id = "dark">dark</h2>
+<h1>World Cup</h1>
 <DarkMode />
 <PlayerList players={this.state.playersData} />
       </div>
